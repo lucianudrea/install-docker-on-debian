@@ -1,5 +1,6 @@
 # install-docker-on-debian (root)
 
+```
 # Add Docker's official GPG key:
 apt-get update
 apt-get install ca-certificates curl -y
@@ -16,3 +17,4 @@ apt-get update
 
 # Install packages
 apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
